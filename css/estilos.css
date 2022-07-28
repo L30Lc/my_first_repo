@@ -1,0 +1,580 @@
+body{
+	font-family: Verdana;
+	/*background-color: #000033;*/
+	background: -moz-linear-gradient(top, #65b6cf, #2c2c2c);
+	background: -webkit-gradient(linear, 0 0, 0 100%, from(#65b6cf), to(#2c2c2c));
+}
+header, section, footer {
+	width: 940px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+header {	
+	height: 80px;
+	background-color: #3366cc;	
+}
+
+h3 {
+	margin: 0;
+	font-size: 28px;
+	padding: 20px;
+	color: #ffffff;
+	padding-left: 50px;
+}
+
+/* Nuevas cosas */
+p {
+	position: absolute;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(0, 103, 123, 0.6);
+	transition: all 500ms ease-out;
+	opacity: 0;
+	visibility: hidden;
+	text-align: center;
+}
+
+#marca {
+	width: 350px;
+	height: 80px;
+	text-align: center;
+	/*background-color: #b3b3b3;*/
+	float: left;
+	background-image: url(imagenes/fondomarca.jpeg);
+}
+
+#botonera {
+	width: 580px;
+	height: 60px;
+	/*background-color: #003399;*/
+	float: right;
+	margin-top: 15px;
+	border-radius: 20px 0 0 20px;
+}
+
+#botonera ul {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+
+#botonera ul li {
+	display: inline;
+}
+
+#botonera ul li a {
+	display: inline-block;
+	padding: 15px;
+	text-decoration: none;
+	color: #ffffff;
+	font-weight: bold;
+	
+}
+
+#botonera a:hover{
+	box-shadow: -5px 10px 5px rgba(0, 0, 0, 0.5), 5px -10px 5px rgba(0, 0, 0, 0.5);
+}
+
+#inicio {
+	height: 625px; /* Por lo menos a partir de 400px y superior */
+	background-color: #cccccc;
+}
+
+#box1, #box2, #box3, #box4, #box5, #box6, #boxInicioNuevo, #boxInicioNuevo2 {
+	border-radius: 5px;
+	padding: 10px;
+	width: 430px;
+	height: 330px;
+	margin: 15px;
+	/*background-color: #a6a6a6;*/
+	float: left;
+	-moz-box-shadow: 0px 15px 25px /*#008ae6*/; 
+	-webkit-box-shadow: 0px 15px 25px /*#008ae6*/; 
+	box-shadow: 0px 15px 25px /*#008ae6*/;
+}
+
+#box1, #box2, #boxInicioNuevo, #boxInicioNuevo2 {
+	height: 370px;
+}
+
+#box3, #box4 {
+	height: 570px;
+}
+
+video.image-fluid {
+	align-items: center;
+	margin-left: 5px;
+}
+
+#box1 {
+	font-size: 13px;
+	/*color: #ffffff;*/
+	background-size: 450px 350px;
+	/*background-image: url(imagenes/blueteambox2.jpeg);*/	
+}
+
+
+img {
+	width: 410px;
+	height: 330px;
+}
+
+#blue {
+	color: blue;
+}
+
+#box2 {
+	font-size: 13px;
+	/*color: #ffffff;*/
+	background-size: 450px 350px;
+	/*background-image: url(imagenes/purpleteam.jpeg);*/
+	
+}
+
+#infocursos {
+	height: 470px; /* Por lo menos a partir de 400px y superior */
+	background-color: #0088cc;
+
+}
+
+
+#nosotros {
+	height: 600px; /* Por lo menos a partir de 400px y superior */
+	background-color: #0000ff;
+
+}
+
+.h2sombra {
+	color: white;
+  	text-shadow: 2px 2px 4px #000000;
+}
+
+#contacto{
+	height: 400px; /* Por lo menos a partir de 400px y superior */
+	background-color: #336699;
+
+}
+
+footer {
+	height: 160px;
+	background-color: #669999;
+	background-image: url(imagenes/fondofooter.png);
+	box-sizing: border-box;
+}
+
+#pfooter {
+	width: 350px;
+	height: 80px;
+	text-align: center;
+	float: left;
+	font-size: 25px;
+	color: #ffffff;
+	text-align: center;
+	font-size: 13px;
+}
+
+/*	Código agregado en unidad 1810	*/
+input.form-control, textarea.form-control {
+	color: #e6e6e6;
+	background-color: #262626;
+	margin: 5px;
+	margin-top: 5px;
+}
+
+/*	Responsive	*/
+
+@media all and (min-width: 600px) and (max-width: 1023px) {
+
+body{
+	font-family: Verdana;
+	height: 2000px;
+	/*background-color: #000033;*/
+	background: -moz-linear-gradient(top, #65b6cf, #2c2c2c);
+	background: -webkit-gradient(linear, 0 0, 0 100%, from(#65b6cf), to(#2c2c2c));
+}
+header, section, footer {
+	width: 570px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+header {	
+	height: 160px;
+	background-color: #3366cc;	
+}
+
+h3 {
+	margin: 0;
+	font-size: 28px;
+	padding: 20px;
+	color: #ffffff;
+	padding-left: 50px;
+}
+
+/* Nuevas cosas */
+p {
+	position: absolute;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(0, 103, 123, 0.6);
+	transition: all 500ms ease-out;
+	opacity: 0;
+	visibility: hidden;
+	text-align: center;
+}
+
+#marca {
+	width: 580px;
+	height: 60px;
+	text-align: center;
+	/*background-color: #b3b3b3;*/
+	float: left;
+	background-image: url(imagenes/fondomarca.jpeg);
+}
+
+#botonera {
+	width: 540px;
+	height: 55px;
+	/*background-color: #003399;*/
+	float: right;
+	margin-top: 15px;
+	margin-left: 6px;
+	border-radius: 20px 0 0 20px;
+}
+
+#botonera ul {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+
+#botonera ul li {
+	display: inline;
+}
+
+#botonera ul li a {
+	display: inline-block;
+	padding: 15px;
+	text-decoration: none;
+	color: #ffffff;
+	font-weight: bold;
+	
+}
+
+#botonera a:hover{
+	box-shadow: -5px 10px 5px rgba(0, 0, 0, 0.5), 5px -10px 5px rgba(0, 0, 0, 0.5);
+}
+
+#inicio {
+	height: 381px; /* Por lo menos a partir de 400px y superior */
+	background-color: #cccccc;
+}
+
+#box1, #box2, #box3, #box4, #box5, #box6, #boxInicioNuevo, #boxInicioNuevo2 {
+	border-radius: 5px;
+	padding: 10px;
+	width: 430px;
+	height: 330px;
+	margin: 15px;
+	/*background-color: #a6a6a6;*/
+	float: left;
+	-moz-box-shadow: 0px 15px 25px /*#008ae6*/; 
+	-webkit-box-shadow: 0px 15px 25px /*#008ae6*/; 
+	box-shadow: 0px 15px 25px /*#008ae6*/;
+}
+
+#box1, #box2, #boxInicioNuevo, #boxInicioNuevo2 {
+	height: 370px;
+}
+
+#box3{
+	height: 550px;
+}
+
+#box4 {
+	height: 580px;
+	margin-left: 20px;
+}
+
+video.image-fluid {
+	align-items: center;
+	margin-left: 5px;
+}
+
+#box1 {
+	font-size: 13px;
+	background-size: 450px 350px;
+}
+
+
+img {
+	width: 410px;
+	height: 330px;
+}
+
+#blue {
+	color: blue;
+}
+
+#box2 {
+	font-size: 13px;
+	/*color: #ffffff;*/
+	background-size: 450px 350px;
+	/*background-image: url(imagenes/purpleteam.jpeg);*/
+	
+}
+
+#infocursos {
+	height: 1340px; /* Por lo menos a partir de 400px y superior */
+	padding-top: 20px;
+	background-color: #0088cc;
+}
+
+
+#nosotros {
+	height: 1200px; /* Por lo menos a partir de 400px y superior */
+	background-color: #0000ff;
+
+}
+
+.h2sombra {
+	color: white;
+  	text-shadow: 2px 2px 4px #000000;
+}
+
+#contacto{
+	height: 400px; /* Por lo menos a partir de 400px y superior */
+	background-color: #336699;
+
+}
+
+footer {
+	height: 160px;
+	background-color: #669999;
+	background-image: url(imagenes/fondofooter.png);
+	box-sizing: border-box;
+}
+
+#pfooter {
+	width: 350px;
+	height: 80px;
+	text-align: center;
+	float: left;
+	font-size: 25px;
+	color: #ffffff;
+	text-align: center;
+	font-size: 13px;
+}
+
+/*	Código agregado en unidad 1810	*/
+input.form-control, textarea.form-control {
+	color: #e6e6e6;
+	background-color: #262626;
+	margin: 5px;
+	margin-top: 5px;
+}
+
+
+} /* Fin @media 600px a 1023px */
+
+	/*	Responsive -599px	*/
+
+@media all and (max-width: 599px) {
+
+body{
+	font-family: Verdana;
+	height: 1250px;
+	background: -moz-linear-gradient(top, #65b6cf, #2c2c2c);
+	background: -webkit-gradient(linear, 0 0, 0 100%, from(#65b6cf), to(#2c2c2c));
+}
+header, section, footer {
+	width: 430px;
+	/*margin-left: auto;
+	margin-right: auto;*/
+}
+
+header {	
+	height: 160px;
+	background-color: #3366cc;	
+}
+
+h3 {
+	margin: 0;
+	font-size: 28px;
+	padding: 20px;
+	color: #ffffff;
+	padding-left: 50px;
+}
+
+/* Nuevas cosas */
+p {
+	position: absolute;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(0, 103, 123, 0.6);
+	transition: all 500ms ease-out;
+	opacity: 0;
+	visibility: hidden;
+	text-align: center;
+}
+
+#marca {
+	width: 430px;
+	height: 70px;
+	text-align: center;
+	/*background-color: #b3b3b3;*/
+	float: left;
+	background-image: url(imagenes/fondomarca.jpg);
+}
+
+#botonera {
+	width: 430px;
+	height: 210px;
+	background-color: #003399;
+	margin-top: 15px;
+	margin-left: 50px;
+	border-radius: 20px 0 0 20px;
+}
+
+#botonera a {
+	width: 405px;
+	align-items: center;
+}
+
+#botonera ul {
+	margin: 10px;
+	padding: 5px;
+	list-style-type: none;
+}
+
+#botonera ul li {
+	display: inline;
+}
+
+#botonera ul li a {
+	display: inline-block;
+	padding: 5px;
+	text-decoration: none;
+	color: #ffffff;
+	font-weight: bold;
+	height: 50px;
+}
+
+#botonera a:hover{
+	box-shadow: -5px 10px 5px rgba(0, 0, 0, 0.5), 5px -10px 5px rgba(0, 0, 0, 0.5);
+}
+
+#inicio {
+	margin-top: 5px;
+	height: 417px; /* Por lo menos a partir de 400px y superior */
+	background-color: #cccccc;
+}
+
+#box1, #box2, #box3, #box4, #box5, #box6, #boxInicioNuevo, #boxInicioNuevo2 {
+	border-radius: 5px;
+	padding: 10px;
+	width: 430px;
+	height: 330px;
+	margin: 15px;
+	/*background-color: #a6a6a6;*/
+	float: left;
+	-moz-box-shadow: 0px 15px 25px /*#008ae6*/; 
+	-webkit-box-shadow: 0px 15px 25px /*#008ae6*/; 
+	box-shadow: 0px 15px 25px /*#008ae6*/;
+}
+
+#box1, #box2, #boxInicioNuevo, #boxInicioNuevo2 {
+	height: 370px;
+}
+
+#box3, #box4 {
+	height: 590px;
+	width: 400px;
+}
+
+video.image-fluid {
+	align-items: center;
+	margin-left: 5px;
+}
+
+#box1 {
+	font-size: 13px;
+	/*color: #ffffff;*/
+	background-size: 450px 350px;
+	/*background-image: url(imagenes/blueteambox2.jpeg);*/	
+}
+
+
+img {
+	width: 410px;
+	height: 330px;
+}
+
+#blue {
+	color: blue;
+}
+
+#box2 {
+	font-size: 13px;
+	/*color: #ffffff;*/
+	background-size: 450px 350px;
+	/*background-image: url(imagenes/purpleteam.jpeg);*/
+	
+}
+
+#infocursos {
+	padding: 10px;
+	height: 1331px; /* Por lo menos a partir de 400px y superior */
+	background-color: #0088cc;
+
+}
+
+
+#nosotros {
+	height: 1250px; /* Por lo menos a partir de 400px y superior */
+	background-color: #0000ff;
+
+}
+
+.h2sombra {
+	color: white;
+  	text-shadow: 2px 2px 4px #000000;
+}
+
+#contacto{
+	height: 400px; /* Por lo menos a partir de 400px y superior */
+	background-color: #336699;
+
+}
+
+footer {
+	height: 160px;
+	background-color: #669999;
+	background-image: url(imagenes/fondofooter.png);
+	box-sizing: border-box;
+}
+
+#pfooter {
+	width: 350px;
+	height: 80px;
+	text-align: center;
+	float: left;
+	font-size: 25px;
+	color: #ffffff;
+	text-align: center;
+	font-size: 13px;
+}
+
+/*	Código agregado en unidad 1810	*/
+input.form-control, textarea.form-control {
+	color: #e6e6e6;
+	background-color: #262626;
+	margin: 5px;
+	margin-top: 5px;
+}
+
+} /* Fin @media -599px */
